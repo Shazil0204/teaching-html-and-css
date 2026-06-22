@@ -1,0 +1,98 @@
+/* ===== Global Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Page Base ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* ===== Headings ===== */
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #f8fafc;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    margin-bottom: 10px;
+    color: #cbd5e1;
+}
+
+/* ===== Links ===== */
+a {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #0ea5e9;
+    text-decoration: underline;
+}
+
+/* ===== Code Blocks ===== */
+pre {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 15px 0;
+    border: 1px solid #334155;
+}
+
+/* ===== Lists ===== */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* ===== Buttons ===== */
+button {
+    background: #38bdf8;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #0f172a;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #0ea5e9;
+    transform: scale(1.05);
+}
+
+/* ===== Images ===== */
+img {
+    width: 250px;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* ===== Div / Card Style ===== */
+div {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+    border: 1px solid #334155;
+}
